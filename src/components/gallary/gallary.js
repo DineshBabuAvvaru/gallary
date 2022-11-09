@@ -24,9 +24,7 @@ const Gallary = (props) => {
       console.log(img)
       setShow({img})
   }
-
- 
- 
+  
   return (
     <div className="app-container">
       <h1 className="heading">Images</h1>
