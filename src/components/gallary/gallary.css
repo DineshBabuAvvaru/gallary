@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-size: cover;
+}
+
+.heading {
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.images-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px){
+    .images-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90px;
+    height: 160px;
+    margin: 7px;
+}
+
+@media screen and (min-width: 768px) {
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 160px;
+        height: 240px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        height: 350px;
+    }
+}
+
+.image {
+    height: 80px;
+    width: 80px;
+}
+
+@media screen and (min-width: 768px) {
+    .image {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .image {
+        height: 260px;
+        width: 260px;
+    }
+}
+
+
+.title {
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-family: "Roboto";
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .title {
+        font-family: "Roboto";
+        font-size: 22px;
+    }
+}
+
+.modal-container {
+    margin-top: 100px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .modal-container {
+        margin-top: 160px;
+    }
+}
+
+.modal-image {
+    height: 268px;
+    width: 270px;
+    border-radius: 12px;
+}
+
+@media screen and (min-width: 375px) {
+    .modal-image {
+        height: 280px;
+        width: 326px;
+        border-radius: 16px;
+    }
+}
+
+
+@media screen and (min-width: 425px) {
+    .modal-image {
+        height:300px;
+        width: 376px;
+        border-radius: 16px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .modal-image {
+        height:300px;
+        width: 466px;
+        border-radius: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .modal-image {
+        height:390px;
+        width: 463px;
+        border-radius: 16px;
+    }
+}
