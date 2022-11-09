@@ -3,7 +3,7 @@ import "./gallary.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Modal} from 'react-bootstrap';
 
-const Gallary = (props) => {
+const Images = (props) => {
   const [imagesList, setImagesList] = useState([]);
   const [show, setShow] = useState({img:''})
 
@@ -24,7 +24,7 @@ const Gallary = (props) => {
       console.log(img)
       setShow({img})
   }
-  
+
   return (
     <div className="app-container">
       <h1 className="heading">Images</h1>
@@ -65,4 +65,4 @@ const Gallary = (props) => {
   );
 };
 
-export default Gallary;
+export default Images;

@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
-import Gallary from './components/gallary/gallary'
+import Images from './components/gallary/gallary'
 
 const App = () => {
   return (
-    <Gallary />
+    <Images />
   )
 }
 
