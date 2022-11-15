@@ -1,6 +1,12 @@
 .heading{
     color: rgb(32, 155, 231);
-  
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .main-heading{
+    padding: 10px;
+
   }
   .photo {
     height: 280px;
@@ -9,11 +15,10 @@
     border-radius: 12px;
   }
   .photoscontainer{
-    
+    padding: auto;
   }
   .imageConatiner{
-    
-  margin-bottom: 5px;  
+  margin-bottom: 30px;  
   }
   
   @media screen and (max-width: 768px) {

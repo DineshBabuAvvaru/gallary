@@ -32,8 +32,8 @@ const Gallary = () => {
       )}
       
 
-      <Container>
-        <h1 className="heading"> Flicker Photo Gallaery</h1>
+      <Container className="main-heading"> 
+        <h1 className="heading"> Photos Gallary </h1> 
         <Row className="photoscontainer">
           {details.map((info) => {
             return (
