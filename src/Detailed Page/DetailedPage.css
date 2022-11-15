@@ -1,0 +1,27 @@
+.detailedimage {
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 27px;
+  }
+  .container-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+  span{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .detailedimage {
+      width: 200px;
+      height: 200px;
+      background-size: cover;
+      border-radius: 27px;
+    }
+  }
