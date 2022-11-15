@@ -10,7 +10,12 @@
     align-items: center;
     justify-content: space-around;
   }
-  
+.photo-heading {
+    color: blue;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: medium;
+}
   span{
     color: black;
     font-size: 25px;

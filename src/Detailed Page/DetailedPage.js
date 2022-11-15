@@ -13,9 +13,9 @@ const DetailedPage = (props) => {
       aria-labelledby="contained-modal-title-center"
       centered
     >
-      <Modal.Header closeButton>
-        <Modal.Title>Select Image Details</Modal.Title>
-      </Modal.Header>
+      <Modal.Header className="photo-heading">
+        <Modal.Title> Photo Details</Modal.Title>
+      </Modal.Header> 
 
       <Modal.Body className="container-image">
         <div>

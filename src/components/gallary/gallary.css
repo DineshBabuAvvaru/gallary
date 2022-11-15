@@ -2,13 +2,16 @@
     color: rgb(32, 155, 231);
     text-align: center;
     padding-bottom: 10px;
+    font-style: italic;
+    font-family: Roboto;
+    font-weight: bold;
   }
 
   .main-heading{
     padding: 10px;
 
   }
-  .photo {
+  .image {
     height: 280px;
     width: 280px;
     background-size: cover;
